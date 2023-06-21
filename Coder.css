@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+}
+body{
+    color: #fff;
+    background-color: black;
+}
+.container{
+    width: 88%;
+    height: 100vh;
+    background-image: url(code.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 45px;
+  padding-left: 4%;
+  padding-right: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: unset;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+}
+.logo a{
+    padding: 10%;
+    font-size: 35px;
+    text-decoration: none;
+}
+span{
+    color: #f9004d;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a{
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 18px;
+}
+nav ul li a:hover{
+    color: #f9004d
+}
+.login{
+     background: hsl(0, 1%, 13%);
+     border-radius: 6px;
+     padding: 9px 25px;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 18px;
+  transition: 0.5s;
+}
+.btn{
+  background: hsl(0, 1%, 13%);
+  border-radius: 6px;
+  padding: 9px 25px;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 18px;
+}
+a{
+    color: aliceblue;
+}
+.buttons .login:hover{
+    border: 1px solid #fff;
+    color: #f9004d
+}
+.buttons .btn:hover{
+    border: 1px solid #fff;
+    color: #f9004d
+}
+.content{
+    margin-top: 10%;
+    padding-left: 8%;
+    line-height: 30px ;
+}
+.content h2{
+    line-height: 50px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.content p{
+    margin-top: 9px;
+    line-height: 25px;
+}
+.link{
+margin: 30px;
+padding-left: 6%;
+}
+.hire{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 9px 25px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.link .hire:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #f9004d;
+}
